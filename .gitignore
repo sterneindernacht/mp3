@@ -1,8 +1,7 @@
-*/out
-*/.idea
-
-
 out
+target
 .idea
 .git
 .env
+
+muzyka

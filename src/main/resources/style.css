@@ -1,0 +1,41 @@
+/* Tło przycisków */
+#play {
+    -fx-background-image: url('play.png');
+}
+
+#prev {
+    -fx-background-image: url('prev.png');
+}
+
+#next {
+    -fx-background-image: url('next.png');
+}
+
+#body {
+    -fx-background-color: #ffabac;
+}
+
+.button,
+.toggle-button {
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 70% 70%;
+}
+
+.menu, .menu-item, .button, .toggle-button, .menu-bar, .table-view:row-selection {
+    -fx-background-color: #ffabac;
+    -fx-opacity: 0.9;
+    -fx-font-family: SansSerif;
+    -fx-color: white;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: rgba(30, 30, 30, 0.2);
+}
+
+/* Przyciski po najechaniu */
+.button:hover,
+.toggle-button:hover,
+.toggle-button:selected {
+    -fx-opacity: 90%;
+}
